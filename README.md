@@ -1,6 +1,4 @@
-<p align="center" style="font-size: 2em; font-weight: bold;">
-    SafeChain: Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities
-</p>
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> SafeChain: Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities </h1>
 <!-- Authors -->
 <p align="center">
     <!-- Use &nbsp; for spacing, <sup> for affiliations, and style="text-decoration: none;" for link decoration -->
@@ -89,27 +87,6 @@ Below is a summary of the command-line arguments provided by the script, along w
 
 ---
 
-## Usage Example
-
-```bash
-python resp_gen.py \
-    --model myModel \
-    --data myDataset \
-    --prompt "custom_prompt" \
-    --system True \
-    --temperature 0.8 \
-    --topp 0.9 \
-    --topk 40 \
-    --max_tokens 120 \
-    --repeat_n 5 \
-    --n 100 \
-    --start_idx 10 \
-    --port 8080 \
-    --think_budget 5000 \
-    --enforce_num 20
-```
-
-
 And with the output file, run the following command:
 ```
 python resp_eval.py --file file_name
@@ -127,6 +104,11 @@ Under `scripts` dir, run
 bash morethink_uni.sh  MODEL_PATH TENSOR_PARALLEL_SIZE GEN_DEVICE EVAL_DEVICE RUN_PY 
 ```
 If `RUN_PY` is `gen`, the script will not run evaluation after response generation, it can help running experiment if you do not have enough GPU devices (e.g., only 1 GPU).
+
+Example:
+```
+bash morethink_uni.sh deepseek-ai/DeepSeek-R1-Distill-Llama-70B 4  "0,1,2,3" "2" "gen"
+```
 
 
 
