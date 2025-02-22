@@ -111,7 +111,18 @@ bash morethink_uni.sh deepseek-ai/DeepSeek-R1-Distill-Llama-70B 4  "0,1,2,3" "2"
 ```
 
 
+## Citation
 
+If you find our work useful, please consider citing our paper:
+
+```bibtex
+@article{jiang2025safechain,
+  title={SafeChain: Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities},
+  author={Jiang, Fengqing and Xu, Zhangchen and Li, Yuetai and Niu, Luyao and Xiang, Zhen and Li, Bo and Lin, Bill Yuchen and Poovendran, Radha},
+  journal={arXiv preprint arXiv:2502.12025},
+  year={2025}
+}
+```
 
 
 
