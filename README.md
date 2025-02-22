@@ -1,87 +1,43 @@
-<!-- # SafeChain -->
-<!-- ## Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities -->
-<section class="hero" style="text-align: center;">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">
-        SafeChain: Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities
-          </h1>
-          <div class="is-size-5 publication-authors">
-            <!-- Paper authors -->
-            <span class="author-block">
-              <a href="http://fqjiang.work/" target="_blank">Fengqing Jiang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://zhangchenxu.com/" target="_blank">Zhangchen Xu</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://yuetl9.github.io/" target="_blank">Yuetai Li</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://luyaoniu.github.io/" target="_blank">Luyao Niu</a><sup>1</sup>,
-            </span>
-            <br>
-            <span class="author-block">
-              <a href="https://zhenxianglance.github.io/" target="_blank">Zhen Xiang</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://aisecure.github.io/" target="_blank">Bo Li</a><sup>3</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://labs.ece.uw.edu/nsl/faculty/radha/" target="_blank">Radha Poovendran</a><sup>1</sup>,
-            </span>
-          </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <sup>1</sup>&nbsp;University of Washington &nbsp;&nbsp; 
-              <sup>2</sup>&nbsp;University of Georgia &nbsp;&nbsp; 
-              <sup>3</sup>&nbsp;University of Chicago
-            </span>
-          </div>
-          <p style="color: red; font-weight: bold;">
-            ⚠️ Warning: This paper contains model outputs that may be considered offensive.
-          </p>
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- Arxiv PDF link -->
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2502.12025" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span><u>Paper</u></span>
-                </a>
-              </span>
-              <!-- Github link -->
-              <span class="link-block">
-                <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span><u>Project Page</u></span>
-                </a>
-              </span>
-              <!-- Hugging Face link -->
-              <span class="link-block">
-                <a href="https://huggingface.co/datasets/UWNSL/SafeChain" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span><u>Dataset</u></span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<p align="center" style="font-size: 2em; font-weight: bold;">
+    SafeChain: Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities
+</p>
+<!-- Authors -->
+<p align="center">
+    <!-- Use &nbsp; for spacing, <sup> for affiliations, and style="text-decoration: none;" for link decoration -->
+    <a href="https://fqjiang.work/" target="_blank" style="text-decoration: none;">Fengqing Jiang<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://zhangchenxu.com/" target="_blank" style="text-decoration: none;">Zhangchen Xu<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://yuetl9.github.io/" target="_blank" style="text-decoration: none;">Yuetai Li<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://luyaoniu.github.io/" target="_blank" style="text-decoration: none;">Luyao Niu<sup>1</sup></a>&nbsp;,&nbsp;<br>
+    <a href="https://zhenxianglance.github.io/" target="_blank" style="text-decoration: none;">Zhen Xiang<sup>2</sup></a>&nbsp;,&nbsp;
+    <a href="https://yuchenlin.xyz/" target="_blank" style="text-decoration: none;">Bill Yuchen Lin<sup>1</sup></a>&nbsp;,&nbsp;
+    <a href="https://aisecure.github.io/" target="_blank" style="text-decoration: none;">Bo Li<sup>3</sup></a>&nbsp;,&nbsp;
+    <a href="https://labs.ece.uw.edu/nsl/faculty/radha/" target="_blank" style="text-decoration: none;">Radha Poovendran<sup>1</sup></a>
+    <br/><br/>
+    <sup>1</sup>University of Washington&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>University of Georgia&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>University of Chicago
+</p>
+<!-- Warning -->
+<p align="center" style="color: red;">
+    <b><em>Warning: This paper contains model outputs that may be considered offensive.</em></b>
+</p>
+
+
+<!-- Links (Paper, GitHub, Dataset) -->
+<p align="center" style="font-size: 1.2em;">
+    <b>
+        <a href="https://arxiv.org/pdf/2502.12025" target="_blank" style="text-decoration: none;">[Paper]</a>
+    </b>
+    &nbsp;&nbsp;
+    <b>
+        <a href="https://safe-chain.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a>
+    </b>
+    &nbsp;&nbsp;
+    <b>
+        <a href="https://huggingface.co/datasets/UWNSL/SafeChain" target="_blank" style="text-decoration: none;">[Dataset]</a>
+    </b>
+</p>
+
 
 
 ## News
