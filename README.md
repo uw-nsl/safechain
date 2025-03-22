@@ -112,9 +112,10 @@ bash morethink_uni.sh deepseek-ai/DeepSeek-R1-Distill-Llama-70B 4  "0,1,2,3" "2"
 
 #### Benchmark Evaluation on Math and Coding
 Regarding math-related task, we adapted the codebase [here](https://github.com/Small-Model-Gap/Small-Model-Learnability-Gap).
-For coding task, we adapted [EvalPlus](https://github.com/evalplus/evalplus) for humaneval and MBPP, and we adapted Livecodebench codebase for evaluation.
+For coding task, we adapted [EvalPlus](https://github.com/evalplus/evalplus) for HumanEval and MBPP, and we adapted 
+[SkyThought](https://github.com/NovaSky-AI/SkyThought) codebase for Livecodebench evaluation (we upgrade to v5 for evaluation). As mentioned in our paper, we use greedy decoding for evaluation, and we set `repetition_penalty` to 1.1 for coding task.
 
-We are working on preparing the off-the-shell script for easy evaluation. 
+We will prepare the off-the-shell script for easy evaluation. 
 
 ## Citation
 
