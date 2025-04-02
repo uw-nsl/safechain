@@ -32,13 +32,15 @@
     </b>
     &nbsp;&nbsp;
     <b>
-        <a href="https://huggingface.co/datasets/UWNSL/SafeChain" target="_blank" style="text-decoration: none;">[Dataset]</a>
+        <a href="https://huggingface.co/datasets/UWNSL/SafeChain" target="_blank" style="text-decoration: none;">[HuggingFace]</a>
     </b>
 </p>
 
 ![](asset/safechain.jpg) 
 
 ## News
+- [2025/04/02] 📢 We released two model trained on SafeChain dataset hosted on [Huggingface](https://huggingface.co/collections/UWNSL/safechain-67b90cbc940549d886be9ccc).
+- [2025/03/21] 🚀 `SafeChain` is selected as oral presentation on [ICLR 2025 BiAlign workshop](https://bialign-workshop.github.io/#/papers). See you in Singapore!
 - [2025/02/21] We released our code source.
 
 
